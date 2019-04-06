@@ -1,0 +1,66 @@
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.logo {
+    width: 80%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list-group-item.active {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: black;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.contact {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index: 100;
+}
+
+.dark-gradient {
+    background-image: linear-gradient(to top,#232323 0,#737373 100%);
+}
+
+.fas {
+    padding: 12px 0;
+}
+
+@media screen and (max-width: 991px) {
+
+    div.sidebar.col-3,
+    div.article.col-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .list-group {
+        flex-direction: row;
+    }
+}
